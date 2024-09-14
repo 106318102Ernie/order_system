@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from controllers.order_controller import order_router
+from app.controllers.order_controller import order_router
 
 app = FastAPI()
 

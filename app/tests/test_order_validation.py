@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 from app.main import app
-from config.config import OrderConfig
+from app.config.config import OrderConfig
 
 client = TestClient(app)
 

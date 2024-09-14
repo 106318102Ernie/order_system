@@ -1,5 +1,5 @@
-from models.order_models import Order
-from config.config import OrderConfig
+from app.models.order_models import Order
+from app.config.config import OrderConfig
 
 
 class OrderService:
