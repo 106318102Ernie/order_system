@@ -71,5 +71,8 @@ docker-compose run app pytest
   - 添加訂單狀態: 可以將訂單狀態管理功能納入系統，允許訂單進行不同階段的處理。
   - 身份驗證與授權: 可以增加身份驗證系統來限制對API的訪問，確保只有授權用戶可以創建或查看訂單。
 
+## github連結
+https://github.com/106318102Ernie/order_system.git
+
 ## 結論
 這個 API 示例展示了如何使用 Python 3.9 和 FastAPI 構建一個基於 MVC 架構的訂單檢查與轉換系統。透過 Docker 進行容器化管理，遵循Clean Code 和 SOLID 設計原則，並且使用單元測試保證代碼質量。
